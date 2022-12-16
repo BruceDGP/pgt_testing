@@ -19,4 +19,8 @@ async def on_ready():
     except :
         pass
 
+@bot.command
+async def help(ctx):
+    await ctx.channel.send("Se uso el comando help")
+
 bot.run(os.getenv("TOKEN"))
