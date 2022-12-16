@@ -19,8 +19,8 @@ async def on_ready():
     except :
         pass
 
-@bot.commands
-async def help(ctx):
+@bot.command
+async def test(ctx):
     await ctx.message.delete()
     await ctx.channel.send("Se uso el comando help")
 
