@@ -19,7 +19,7 @@ async def on_ready():
     except :
         pass
 
-@bot.command
+@bot.commands
 async def help(ctx):
     await ctx.channel.send("Se uso el comando help")
 
