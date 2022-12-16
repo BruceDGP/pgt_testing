@@ -6,7 +6,7 @@ import datetime
 import random
 import requests
 import shutil
-from replit import db
+#from replit import db
 
 bot = commands.Bot(command_prefix="t", description="PGT testing", help_command=None, intents=nextcord.Intents.all())
 
