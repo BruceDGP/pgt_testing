@@ -21,6 +21,7 @@ async def on_ready():
 
 @bot.commands
 async def help(ctx):
+    await ctx.message.delete()
     await ctx.channel.send("Se uso el comando help")
 
 bot.run(os.getenv("TOKEN"))
