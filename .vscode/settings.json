@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "/subscriptions/b7ada5a9-f170-4b6b-b267-1b80253d7544/resourceGroups/appsvc_linux_centralus/providers/Microsoft.Web/sites/pgtbot",
+    "appService.deploySubpath": "."
+}
