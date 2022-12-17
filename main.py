@@ -1,11 +1,11 @@
 import os
 import nextcord #importamos para conectarnos con el bot
 from nextcord.ext import commands #importamos los comandos
-import wavelink
-import datetime
-import random
-import requests
-import shutil
+# import wavelink
+# import datetime
+# import random
+# import requests
+# import shutil
 #from replit import db
 
 bot = commands.Bot(command_prefix="t", description="PGT testing", help_command=None, intents=nextcord.Intents.all())
