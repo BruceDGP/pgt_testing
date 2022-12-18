@@ -6,8 +6,10 @@ response.status_code
 
 def check(resp):
     if resp:
-        return True
-    else
-        return True
+        print(resp.status_code)
+        return resp.status_code
+    else:
+        return resp.status_code
 
 check(response)
+response.status_code
