@@ -1,6 +1,4 @@
 import os
-os.environ["TOKEN"] = "OTkyOTkyNzg0NTE4NzU4NTgw.GgfSkW.3pJa7-hk87FAOp5vTQsDkeZ6KbBqWoRqaDivtU"
-
 import nextcord #importamos para conectarnos con el bot
 from nextcord.ext import commands #importamos los comandos
 # import wavelink
